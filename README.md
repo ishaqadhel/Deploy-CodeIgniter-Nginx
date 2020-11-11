@@ -65,27 +65,23 @@ Pada blok server tambahkan : `index index.php index.html index.htm index.nginx-d
 
 Pada blok location hapus comment (aktifkan code) : 
 
-`
-location ~ \.php$ {
+`location ~ \.php$ {`
 
-    include snippets/fastcgi-php.conf;
+    `include snippets/fastcgi-php.conf;`
     
-    fastcgi_pass unix:/run/php/php7.4-fpm.sock;
+    `fastcgi_pass unix:/run/php/php7.4-fpm.sock;`
     
-}
-`
+`}`
 
 - Untuk Check php berfungsi apa belum, create info.php didalam `/var/www/html/` :
 
 isi filenya :
 
-`
-<?php
+`<?php`
 
-  phpinfo();
+  `phpinfo();`
   
-php?>
-`
+`php?>`
 
 `composer create-project codeigniter4/appstarter` then `composer update` whenever
 there is a new release of the framework.
