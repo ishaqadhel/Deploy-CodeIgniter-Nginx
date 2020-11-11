@@ -55,6 +55,8 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 ` sudo apt install php-fpm`
 
+` sudo systemctl restart nginx.service`
+
 - Ubah Hak Akses folder `var/www/` : 
 
 ` sudo chmod -R 755 /var/www/`
