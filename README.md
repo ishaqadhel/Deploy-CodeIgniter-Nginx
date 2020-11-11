@@ -28,18 +28,25 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 ## Langkah - Langkah Deploy Code Igniter
 
 - Install NGINX Server : 
+
 ` sudo apt update
+
   sudo apt install nginx`
 
 - Adjusting Firewall :
+
 ` sudo ufw app list
+  
   sudo ufw allow 'Nginx HTTP'
+  
   sudo ufw status`
  
 - Check Server : 
+
 ` systemctl status nginx`
 
 - Kalo Belom Kestart NGINX servernya : 
+
 ` sudo systemctl start nginx`
 
 
