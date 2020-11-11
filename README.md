@@ -127,11 +127,32 @@ location ~ \.php$ {
 }
 
 ```
+* saya buat nama codeigniter karena nanti project foldernya namanya codeigniter
+
+* untuk server agar punya tempat berbeda dilink ke :8085
+
+- Buat Link ke sites-enabled :
+
+`sudo ln -s /etc/nginx/sites-available/codeigniter.conf /etc/nginx/sites-enabled/`
+
+`sudo nginx -t`
+
+`sudo systemctl restart nginx`
+
+- Install CodeIgniter menggunakan composer : 
+
+Open Directory Root :
+
+`cd /var/www/`
+
+Install CodeIgniter : 
+
+`composer create-project codeigniter4/appstarter nama-project`
+
+* untuk nama project bisa diganti sesuai kebutuhan, disini saya menggunakan nama codeigniter
+
+`composer update`
+
+Seharusnya, jika tidak ada error berhasil install dan deploy CodeIgniter.
 
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
-
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
