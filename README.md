@@ -45,7 +45,7 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 ` systemctl status nginx`
 
-![Image of status nginx](https://drive.google.com/file/d/1rgKfbK7KjikiPt_25Cxoe5npY0JvpPNg/view?usp=sharing)
+![Image of status nginx](/img/capture1.png)
 
 - Kalo Belom Kestart NGINX servernya : 
 
@@ -156,6 +156,8 @@ Install CodeIgniter :
 `composer update`
 
 Seharusnya, jika tidak ada error berhasil install dan deploy CodeIgniter.
+
+![Image of berhasil deploy](/img/capture2.png)
 
 ## Kesimpulan
 
