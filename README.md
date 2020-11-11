@@ -47,6 +47,8 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 ![Image of status nginx](/img/capture1.png)
 
+*jika nginx sudah start maka muncul status seperti di atas ketika di cek status nginxnya
+
 - Kalo Belom Kestart NGINX servernya : 
 
 ` sudo systemctl start nginx`
@@ -157,7 +159,7 @@ Install CodeIgniter :
 
 Seharusnya, jika tidak ada error berhasil install dan deploy CodeIgniter.
 
-![Image of berhasil deploy](/img/capture2.png)
+![Image of berhasil deploy](/img/capture2.PNG)
 
 ## Kesimpulan
 
