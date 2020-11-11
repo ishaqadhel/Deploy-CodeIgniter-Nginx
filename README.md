@@ -29,17 +29,17 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 - Install NGINX Server : 
 
-` sudo apt update
+` sudo apt update`
 
-  sudo apt install nginx`
+` sudo apt install nginx`
 
 - Adjusting Firewall :
 
-` sudo ufw app list
+` sudo ufw app list`
   
-  sudo ufw allow 'Nginx HTTP'
+` sudo ufw allow 'Nginx HTTP'`
   
-  sudo ufw status`
+` sudo ufw status`
  
 - Check Server : 
 
@@ -48,8 +48,6 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - Kalo Belom Kestart NGINX servernya : 
 
 ` sudo systemctl start nginx`
-
-
 
 `composer create-project codeigniter4/appstarter` then `composer update` whenever
 there is a new release of the framework.
