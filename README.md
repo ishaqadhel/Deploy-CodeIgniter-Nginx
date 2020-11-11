@@ -100,7 +100,7 @@ kalau php sudah terinstall dan sudah run seharusnya ketika ke url `localhost/inf
 
 ```php
 
-server { listen 8085 default_server; listen [::]:8085 default_server;
+server { listen 8080 default_server; listen [::]:8080 default_server;
 
 root /var/www/codeigniter/public;
 
@@ -129,7 +129,7 @@ location ~ \.php$ {
 ```
 *saya buat nama codeigniter karena nanti project foldernya namanya codeigniter
 
-*untuk server agar punya tempat berbeda dilink ke :8085
+*untuk server agar punya tempat berbeda dilink ke :8080
 
 - Buat Link ke sites-enabled :
 
