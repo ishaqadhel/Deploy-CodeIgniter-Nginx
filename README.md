@@ -158,3 +158,9 @@ Seharusnya, jika tidak ada error berhasil install dan deploy CodeIgniter.
 ## Kesimpulan
 
 Untuk menginstall CodeIgniter diperlukan Server (Nginx / Apache), php, mysql(optional), serta composer. Untuk caranya menginstallnya pun kadang berbeda sesuai kondisi device / server masing-masing, kadang diperlukan cara tambahan ketika terjadi error ditengah step instalasi.
+
+## Referensi
+
+https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04
+
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04
