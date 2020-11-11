@@ -88,7 +88,45 @@ kalau php sudah terinstall dan sudah run seharusnya ketika ke url `localhost/inf
 
 ## Langkah - Langkah Deploy / Install CodeIgniter di NGINX
 
+- install composer : 
 
+`sudo apt install composer`
+
+`sudo apt install php-curl`
+
+`sudo apt install php-intl`
+
+- Buat File Config di `/etc/nginx/sites-available/codeigniter.conf` : 
+
+```php
+
+server { listen 8085 default_server; listen [::]:8085 default_server;
+
+root /var/www/codeigniter/public;
+
+# Add index.php to the list if you are using PHP
+index index.php index.html index.htm index.nginx-debian.html;
+
+server_name _;
+
+location / {
+	# First attempt to serve request as file, then
+	# as directory, then fall back to displaying a 404.
+	try_files $uri $uri/ /index.php;
+}
+
+# pass PHP scripts to FastCGI server
+#
+location ~ \.php$ {
+	include snippets/fastcgi-php.conf;
+
+#	# With php-fpm (or other unix sockets):
+	fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;
+#	# With php-cgi (or other tcp sockets):
+#	fastcgi_pass 127.0.0.1:9000;
+}
+
+```
 
 
 `composer create-project codeigniter4/appstarter` then `composer update` whenever
