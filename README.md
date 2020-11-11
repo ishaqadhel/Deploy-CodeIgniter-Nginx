@@ -155,4 +155,6 @@ Install CodeIgniter :
 
 Seharusnya, jika tidak ada error berhasil install dan deploy CodeIgniter.
 
+## Kesimpulan
 
+Untuk menginstall CodeIgniter diperlukan Server (Nginx / Apache), php, mysql(optional), serta composer. Untuk caranya menginstallnya pun kadang berbeda sesuai kondisi device / server masing-masing, kadang diperlukan cara tambahan ketika terjadi error ditengah step instalasi.
