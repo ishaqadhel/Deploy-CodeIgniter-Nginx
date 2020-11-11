@@ -49,6 +49,28 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 ` sudo systemctl start nginx`
 
+- Install PHP-fpm : 
+` sudo apt update`
+
+` sudo apt install php-fpm`
+
+- Ubah Hak Akses folder `var/www/` : 
+
+` sudo chmod -R 755 /var/www/`
+
+- Ubah Config di dalam file `/etc/nginx/sites-available/default` :
+
+Pada blok server tambahkan : `index index.php index.html index.htm index.nginx-debian.html;`
+
+Pada blok location hapus comment (aktifkan code) : 
+
+`location ~ \.php$ {
+    include snippets/fastcgi-php.conf;
+    fastcgi_pass unix:/run/php/php7.4-fpm.sock;
+}`
+
+
+
 `composer create-project codeigniter4/appstarter` then `composer update` whenever
 there is a new release of the framework.
 
