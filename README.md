@@ -84,6 +84,9 @@ isi filenya :
 php?>
 ```
 
+kalau php sudah terinstall dan sudah run seharusnya ketika ke url `localhost/info.php` seharusnya muncul detail tentang info php dalam page tersebut.
+
+
 `composer create-project codeigniter4/appstarter` then `composer update` whenever
 there is a new release of the framework.
 
