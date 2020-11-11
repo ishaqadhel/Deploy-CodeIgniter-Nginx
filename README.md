@@ -76,11 +76,11 @@ location ~ \.php$ {
 
 isi filenya :
 
-`<?php`
-
-  `phpinfo();`
-  
-`php?>`
+```php
+<?php
+  phpinfo();
+php?>
+```
 
 `composer create-project codeigniter4/appstarter` then `composer update` whenever
 there is a new release of the framework.
