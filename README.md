@@ -127,9 +127,9 @@ location ~ \.php$ {
 }
 
 ```
-* saya buat nama codeigniter karena nanti project foldernya namanya codeigniter
+*saya buat nama codeigniter karena nanti project foldernya namanya codeigniter
 
-* untuk server agar punya tempat berbeda dilink ke :8085
+*untuk server agar punya tempat berbeda dilink ke :8085
 
 - Buat Link ke sites-enabled :
 
@@ -149,7 +149,7 @@ Install CodeIgniter :
 
 `composer create-project codeigniter4/appstarter nama-project`
 
-* untuk nama project bisa diganti sesuai kebutuhan, disini saya menggunakan nama codeigniter
+*untuk nama project bisa diganti sesuai kebutuhan, disini saya menggunakan nama codeigniter
 
 `composer update`
 
