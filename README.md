@@ -45,6 +45,8 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 ` systemctl status nginx`
 
+![Image of status nginx](https://drive.google.com/file/d/1rgKfbK7KjikiPt_25Cxoe5npY0JvpPNg/view?usp=sharing)
+
 - Kalo Belom Kestart NGINX servernya : 
 
 ` sudo systemctl start nginx`
