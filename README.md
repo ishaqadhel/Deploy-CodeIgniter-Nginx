@@ -25,7 +25,7 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
 - xml (enabled by default - don't turn it off)
 
-## Langkah - Langkah Deploy Code Igniter
+## Langkah - Langkah Install NGINX , PHP
 
 - Install NGINX Server : 
 
@@ -85,6 +85,10 @@ php?>
 ```
 
 kalau php sudah terinstall dan sudah run seharusnya ketika ke url `localhost/info.php` seharusnya muncul detail tentang info php dalam page tersebut.
+
+## Langkah - Langkah Deploy / Install CodeIgniter di NGINX
+
+
 
 
 `composer create-project codeigniter4/appstarter` then `composer update` whenever
