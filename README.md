@@ -49,7 +49,8 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 ` sudo systemctl start nginx`
 
-- Install PHP-fpm : 
+- Install PHP-fpm :
+
 ` sudo apt update`
 
 ` sudo apt install php-fpm`
@@ -65,11 +66,22 @@ Pada blok server tambahkan : `index index.php index.html index.htm index.nginx-d
 Pada blok location hapus comment (aktifkan code) : 
 
 `location ~ \.php$ {
+
     include snippets/fastcgi-php.conf;
+    
     fastcgi_pass unix:/run/php/php7.4-fpm.sock;
+    
 }`
 
+- Untuk Check php berfungsi apa belum, create info.php didalam `/var/www/html/` :
 
+isi filenya :
+
+`<?php
+
+  phpinfo();
+  
+php?>
 
 `composer create-project codeigniter4/appstarter` then `composer update` whenever
 there is a new release of the framework.
