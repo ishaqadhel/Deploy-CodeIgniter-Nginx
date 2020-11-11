@@ -1,20 +1,17 @@
 # CodeIgniter 4 Application Starter
 
-## What is CodeIgniter?
+## Apa itu CodeIgniter?
+CodeIgniter adalah sebuah web application network yang bersifat open source yang digunakan untuk membangun aplikasi php dinamis.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible, and secure. 
-More information can be found at the [official site](http://codeigniter.com).
+CodeIgniter menjadi sebuah framework PHP dengan model MVC (Model, View, Controller) untuk membangun website dinamis dengan menggunakan PHP yang dapat mempercepat pengembang untuk membuat sebuah aplikasi web. [official site](http://codeigniter.com).
 
-This repository holds a composer-installable app starter.
-It has been built from the 
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Requirements
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
-
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/). 
-
-## Server Requirements
+App : 
+- Install Nginx or Apache Server
+- Install PHP-fpm (FastCGI Process Manager)
+- Install Mysql (Optional)
+- Install Composer
 
 PHP version 7.2 or higher is required, with the following extensions installed: 
 
