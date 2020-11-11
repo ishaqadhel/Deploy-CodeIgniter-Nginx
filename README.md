@@ -1,4 +1,4 @@
-# CodeIgniter 4 Application Starter
+# Final Project LBE AJK 2020 - Deploy CodeIgniter On NGINX
 
 ## Apa itu CodeIgniter?
 CodeIgniter adalah sebuah web application network yang bersifat open source yang digunakan untuk membangun aplikasi php dinamis.
@@ -25,7 +25,24 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
 - xml (enabled by default - don't turn it off)
 
-## Installation & updates
+## Langkah - Langkah Deploy Code Igniter
+
+- Install NGINX Server : 
+` sudo apt update
+  sudo apt install nginx`
+
+- Adjusting Firewall :
+` sudo ufw app list
+  sudo ufw allow 'Nginx HTTP'
+  sudo ufw status`
+ 
+- Check Server : 
+` systemctl status nginx`
+
+- Kalo Belom Kestart NGINX servernya : 
+` sudo systemctl start nginx`
+
+
 
 `composer create-project codeigniter4/appstarter` then `composer update` whenever
 there is a new release of the framework.
