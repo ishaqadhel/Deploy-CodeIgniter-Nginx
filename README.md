@@ -1,4 +1,4 @@
-# Final Project LBE AJK 2020 - Deploy CodeIgniter On NGINX
+# Deploy CodeIgniter On NGINX
 
 ## Apa itu CodeIgniter?
 CodeIgniter adalah sebuah web application network yang bersifat open source yang digunakan untuk membangun aplikasi php dinamis.
