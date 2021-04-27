@@ -1,6 +1,6 @@
 # Deploy CodeIgniter On NGINX
 
-## Apa itu CodeIgniter?
+## Whats is CodeIgniter?
 CodeIgniter is a powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications. [official site](http://codeigniter.com).
 
 ## Requirements
